@@ -18,16 +18,16 @@
     </div>
     <!--/.Page Preloader-->
 
-<!-- Menu Section-->
-<section class="menu">
-<div class="header" >
+<!-- header Section-->
+<section class="header">
+<div class="menu">
 <a class="navbar-brand" href="#"><img src="gallery/highbury-Wlogo.png"alt="logo" width="110px" ></a>
   <div class="header-right">
     <ul id="horizontal-list">
       <li> <a href="#"><i class="fab fa-whatsapp"  style="font-size:16px;color:blue"></i>  WhatsApp Us: +27 72 051 3490</a></li>
       <li> <a href="#"><i class="fa fa-phone" style="font-size:16px;color:blue"></i>  GP: +27 11 262 5115</a></li>
       <li><a href="#"><i class="fa fa-phone" style="font-size:16px;color:blue"></i>  CTN: +27 21 202 7890</a></li>
-       <li> <a href="#"><i class="fa fa-envelope" style="font-size:16px;color:blue"></i>  info@aie.ac</a></li>
+       <li> <a href="#"><i class="fa fa-envelope" style="font-size:16px;color:blue"></i>  info@highbury.com</a></li>
      </ul>
   </div>
 </div>
@@ -36,33 +36,23 @@
 <a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true" id="midM-bar-btn">Rate Our Service, let Our CEO Know</a>
 </div>
 
-	<nav class="navbar navbar-expand-sm navbar-dark"> 
-		<div class="container"> 
-			<button class="navbar-toggler" type="button"
-					data-toggle="collapse"
-					data-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"> 
-				<span class="navbar-toggler-icon"></span> 
-			</button> 
-
-			<div class="collapse navbar-collapse"></div> 
-
-			<div class="collapse navbar-collapse"
-				id="navbarSupportedContent"> 
-				<ul class="navbar-nav mr-auto"> 
-                <li class="nav-item active">
+<nav class="navbar navbar-expand-lg navbar-dark " id="main-Nav">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#">Our Schools</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link active" href="#">Enrolment</a>
+        <a class="nav-link" href="#">Enrolment</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Student Portal</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Student Portal</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#">Learning Methods</a>
@@ -73,17 +63,15 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Recruit Graduates</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Corporate Affairs</a>
+      <li>
+        <a class="nav-link active" href="accreditations.php">Accreditations</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Contact us</a>
+        <a class="nav-link" href="contact_us.php">Contact us</a>
       </li>
-				</ul> 
-			</div> 
-		</div> 
-  </nav> 
-  
+    </ul>
+  </div>
+</nav>
 
   <!--Header overlay-->
   <div class="wrap">
@@ -243,6 +231,8 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 <!--/.Header Section-->
 
   <!-- ======= Alert Button Section ======= -->
+
+  
   <center>
     <section class="alert alert-dark"  id="alert" role="alert">
    #WhereFUTURESAreMade!
@@ -273,6 +263,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 </div>  
 </section>
  <!--/.Academic Institute Section-->
+<br><br><br>
 
  <!--Choose Qualification Section-->
 <section id="qualification-section">
@@ -292,8 +283,9 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
   <li><a href="">Technical Bridging Courses</a></li>
   <li><a href="">Structural Skill Detailing Diploma</a></li>
 </ul>
-<br><br><br><br><br><br>
-<button type="button" class="btn btn-light btn-lg btn-block">LEARN MORE</button>
+<br><br><br><br><br>
+<button type="button" class="btn btn-light btn-lg btn-block"  id="qual-btn">LEARN MORE</button>
+<br>
   </div>
   </div>
   </div>
@@ -312,7 +304,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
   <li><a href="">Civil/Build Engineering National Diploma</a></li>
   <li><a href="">National Diploma: Management of Civil Engineering Construction Processes NQF5</a></li>
 </ul>
-<button type="button" class="btn btn-light btn-lg btn-block">LEARN MORE</button>
+<button type="button" class="btn btn-light btn-lg btn-block"  id="qual-btn">LEARN MORE</button>
 </div>
 </div>
 </div>
@@ -331,18 +323,22 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
   <li><a href="">Executive Assistant & Office Administration</a></li>
   <li><a href="">Project Management</a></li>
 </ul>
-<br><br><br>
-<button type="button" class="btn btn-light btn-lg btn-block">LEARN MORE</button>
+<br><br>
+<button type="button" class="btn btn-light btn-lg btn-block"  id="qual-btn">LEARN MORE</button>
+<br>
 </div>
 </div>
 </div>
 </div>
-</section>
-<!--/.Choose Qualification Section-->
 
+<br><br>
+</section>
+
+<!--/.Choose Qualification Section-->
+<br><br><br>
 <!--Our Learning Methods Section-->
 <section class="container">
-  <h1>Our Learning Methods<div class="seprator"></div></h1>
+  <h1><span>Our</span> Learning Methods<div class="seprator"></div></h1>
   <p>At Highbury College we understand that each person prefers different learning styles and techniques. This is influenced by many factors including, circumstances, location, field of study and learning preference. It is for this reason that we have developed our myWay learning methodology, a unique and modern approach
      to blended learning that encompasses multiple delivery methods, involving our three main channels.</p>
 <div class="container">
@@ -353,6 +349,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
       <p>Reach your full potential through our myWay Instructor-led or 
         Mentorship based classes combined with interactive lessons, practical assignments and 
         in-field experience, combined with our blended platform to make up a full day or selective days within a week.</p>
+        <br><br>
         <button type="button" class="btn btn-light">LEARN MORE</button>
       </div>
     <div class="col-md">
@@ -360,6 +357,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
       <h3>Part Time</h3>
       <p>Designed for the working professional, our part time programmes provides you with the flexibility and benefit of our myWay Blended Learning with 
         at home exercises/assignments and mentored or in-class lectures at a manageable schedule and pace.</p>
+        <br><br>
         <button type="button" class="btn btn-light">LEARN MORE</button>
       </div>
     <div class="col-md">
@@ -372,27 +370,27 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
   </div>
 </div>
 </section>
+<br><br><br>
 
 
 <!--/.Our Learning Methods Section-->
 
 <!--Upcoming Events Section-->
 <section class="card  text-white" id="events-section">
-  <img class="card-img" src="gallery/testiM.jpg" alt="Card image" height="650">
+  <img class="card-img" src="gallery/testiM.jpg" alt="Card image" height="612">
   <div class="card-img-overlay">
-  <h1 class="card-title">Upcoming Events and Open Days<div class="seprator"></div></h1>
+  <h1 class="card-title"><span>Upcoming</span> Events and Open Days<div class="seprator"></div></h1>
   <div  class="container" id="up-events">
   <div class="row">
     <div class="col" id="events-date">
-  
-    <h5>29</h5>
+    <h3 id="events-day">29</h3>
       <p>August '20</p>
       <p>09:00</p>
     </div>
     
     <div class="col-6" id="events-details" >
 
-    <h5>August  2020 Intake  @ 09:00</h5>
+    <h3>August  2020 Intake  @ 09:00</h3>
     <p>Highbury College will be hosting an online open day for all students who are interested in a career in Engineering N1-N6, and would like to enrol to start their studies in August for any one of their programs. Students will discover how classes will be presented, what subjects they will have and if they would like to book a campus tour for the day they can speak to one 
       of our advisors to book a tour on the day to see what the campus looks like. Bookings required.</p>
     </div>
@@ -407,7 +405,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
   </div>
 </section>
 
-<br><br><!--/.Upcoming Events Section-->
+<!--/.Upcoming Events Section-->
 
 <!-- ======= Carousel: Tetimonials ======= -->
 <section class="testimonials-section">
@@ -482,27 +480,27 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 <!-- ======= Contact Form ======= -->
 <section class="container" id="contact-section">
 <h1><span>Get</span> in Touch <div class="seprator"></div></h1>
-<div class="row">
-<div class="col-sm-4">
-  <div>
-  <h6><i class="fa fa-phone-square fa-sm" style="font-size:16px;color:red"></i>OFFICE NUMBER</h6>
-  <p>JHB +27 (0)11 262 5115</p>
-  <p>CT +27 (0)21 000 0462</p>
+<div class="row" id="form-container-row">
+<div class="col-sm-4" id="contact_container">
+  <div class="contactHeading">
+  <h5><i class="fa fa-phone-square fa-md" style="font-size:20px;color:red"></i> OFFICE NUMBER</h5>
+  <p class="contact-p">JHB +27 (0)11 262 5115</p>
+  <p class="contact-p">CT +27 (0)21 000 0462</p>
 </div>
 
-<div>
-<h6><i class="fa fa-envelope-square fa-sm" style="font-size:16px;color:red"></i>EMAIL</h6>
-  <p>info@aie.ac</p>
+<div class="contactHeading">
+<h5><i class="fa fa-envelope-square fa-md" style="font-size:20px;color:red"></i>  EMAIL</h5>
+  <p class="contact-p">info@highbury.com</p>
 </div>
 
-<div>
-<h6><i class="fa fa-home fa-sm" style="font-size:16px;color:red"></i>ADDRESS</h6>
-  <p>Oracle Close, Halfway Gardens, Midrand</p>
+<div class="contactHeading">
+<h5><i class="fa fa-home fa-md" style="font-size:20px;color:red"></i> ADDRESS</h5>
+  <p class="contact-p">Oracle Close, Halfway Gardens, Midrand</p>
 </div>
 
 </div>
-  <div class="col-sm-8">
-  <form class="contact-form">
+  <div class="col-sm-8" id="the-contact-form">
+  <form class="my-contact-form">
   <div class="form-row">
     <div class="form-group col-md-6">
       <input type="text" class="form-control" placeholder="First Name" id="inpuFname4">
@@ -539,7 +537,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
       </select>
     </div>
     <div class="form-group col-md-6">
-      <select id="inputQualification" class="form-control">
+      <select id="contact-inputQualification" class="form-control">
         <option selected>Qualification</option>
         <optgroup label="School of Business, Entrepreneurship & Finance">   
           <option value="ACCA Applied Knowledge L1 Certificate" >ACCA Applied Knowledge L1 Certificate</option>
@@ -604,7 +602,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
     </div>
 
     <div class="form-row">
-    <label for="Delivery Method" id="delivery">Delivery Method</label>
+    <label for="Delivery Method" id="contact-delivery-method">Delivery Method</label>
     <div class="form-check form-check-inline">
   <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
   <label class="form-check-label" for="inlineCheckbox1">Full Time</label>
@@ -620,7 +618,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 </div>
 
   <div class="form-group">
-    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your Message" rows="1"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your Message" rows="5"></textarea>
   </div>
   
   <script src="Basic-Math-Captcha-Plugin/gulpfile.js"></script>
@@ -629,12 +627,13 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 </div>
 </div>
 </section>
-
+<br><br><br>
 <!--/.Contact -->
 
 
 <!-- ======= Footer======= -->
 <section  id="footer" class="footer-1">
+  <br>
 <div class="main-footer widgets-dark typo-light">
 <div class="container">
 <div class="row">
@@ -642,7 +641,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 <div class="col-xs-12 col-sm-6 col-md-3">
 <div class="widget subscribe no-box">
 <h5 class="widget-title">HIGHBURY COLLEGE<span></span></h5>
-<p>About the company, little discription will goes here.. </p>
+<p>Highbury College offers the best skills development in SA. </p>
 </div>
 </div>
 
@@ -651,26 +650,15 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 <h5 class="widget-title">Quick Links<span></span></h5>
 <ul class="thumbnail-widget">
 <li>
-<div class="thumb-content"><a href="#.">Get Started</a></div>	
+<div class="thumb-content"><a href="#.">Home</a></div>	
 </li>
 <li>
-<div class="thumb-content"><a href="#.">Top Leaders</a></div>	
+<div class="thumb-content"><a href="contact-us.php">Contact us</a></div>	
 </li>
 <li>
-<div class="thumb-content"><a href="#.">Success Stories</a></div>	
+<div class="thumb-content"><a href="accreditations.php">Accreditations</a></div>	
 </li>
-<li>
-<div class="thumb-content"><a href="#.">Event/Tickets</a></div>	
-</li>
-<li>
-<div class="thumb-content"><a href="#.">News</a></div>	
-</li>
-<li>
-<div class="thumb-content"><a href="#.">Lifestyle</a></div>	
-</li>
-<li>
-<div class="thumb-content"><a href="#.">About</a></div>	
-</li>
+
 </ul>
 </div>
 </div>
@@ -719,6 +707,6 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="Basic-Math-Captcha-Plugin/gulpfile.js"></script>
+<!--<script src="Basic-Math-Captcha-Plugin/gulpfile.js"></script>-->
 </body>
 </html>

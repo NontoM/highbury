@@ -1,30 +1,45 @@
+body{
+  width:100%;
+  padding: 0;
+  margin: 0;
+}
 /* Style header*/
 .header {
     overflow: hidden;
     background-color: #ffffff !important;
-    padding-top: 15px;   
+    width:100%;
+    top:0;
+  
   }
 
   .navbar-brand{
-    margin-left: 120px;
-  }
-  
-  .header-right{
-    float: right;
-    padding: 15px 10px;
+    margin-left: 70px;
+    margin-top: 10px;
+    
    
-  
+  }
+  .menu{
+    margin-left:50px;
+  }
+ 
+  .header-right{
+    margin-left: 322px;
+    padding-bottom: 30px;
+    margin-top:-60px;
+    
   }
   
     ul#horizontal-list li {
       display: inline;
       text-decoration: none;
-     
+      padding-right: 15px;
+    
     }
     ul#horizontal-list li a{
       text-decoration: none;
       color: #000000;
-      padding:15px 10px;
+      
+    
       
     }
     ul#horizontal-list li a:hover{
@@ -51,7 +66,7 @@
   }
   #midM-bar-btn{
       
-     margin-left: 958px;
+     margin-left: 942px;
       height: 33px;
       background-color: #1167b1;
       border:none;
@@ -66,7 +81,7 @@
       width:100%;
       margin-top: -10px;
       font-size: 16px;
-      padding: 15px 10px;
+      
     
       
   }
@@ -77,11 +92,9 @@
   
  .navbar-nav .nav-item:active .nav-link{
     background-color: #1167b1;
-    text-align: center;
- 
  }
- .nav-link{
-   padding: 15px 10px;
+ .navbar-nav {
+   margin-left: 100px;
  }
 
  .nav-link:hover{
@@ -219,6 +232,7 @@
 #wrap-submit{
 margin-bottom: 10px;
 }
+/*---------------------------------------------Alert Section-------------------------------------------*/
  #alert{
   /*background-color: /*#296d98*#20409a;*/
   background-color: #20639b;
@@ -226,6 +240,16 @@ margin-bottom: 10px;
   font-size: 20px;
   height: 50px;
 }
+
+
+
+/*-----------------------------------------Intro Section: Highbury------------------------------*/
+#intro-section{
+  background-color: #fff;
+  font-family: sans-serif;
+  
+}
+
  .academic-img{
   margin-top: 50px;
 }
@@ -235,10 +259,6 @@ span{
 #bury{
   color: #20639b;
 }
-section{
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
 h1{
   color:#173f5f;
   padding-top: 20px;
@@ -246,12 +266,19 @@ h1{
   font-weight: 500 !important;
   font-family: sans-serif;
 }
-#intro-section{
-  background-color: #fff;
-}
+
+
+
+
+/*--------------------------------------------Qualification Section------------------------------*/
 #qualification-section{
   background-color: #c0c2c9;
   width:100%;
+
+}
+h5{
+  color:#000000;
+  font-weight: bolder;
 
 }
 #qual1-img{
@@ -259,6 +286,7 @@ h1{
     height: 220px;
     object-fit: cover;
     background-color: #ffffff;
+    
 
 }
 
@@ -317,38 +345,66 @@ padding: 15px;
   background-color:#ffffff !important;
   height: 100%; 
 }
-  
-#up-events{
-  background-color: green;
+#qual-btn{
+  border: 1px solid #e00707;
+  margin-top: 15px;
+  width: 200px;
+  margin-left: 55px;
 }
- #events-date{
-   background-color: #ffffff;
-   color:black;
-   font-weight: bold;
- }
- #events-details{
-   border-right: 1px solid red;
- }
- 
- #up-events{
+#qual-btn:hover{
+  background-color: #1c4966;
+  color: #fff;
+  border: none;
+}
+/*-----------------Events Section---------------------*/
 
-    width:800px;
- }
  #events-section{
    background-color: #fff;
    border:none;
  }
-
-
-
-
-
-
-/*-------------------------------------------------------- Carousel ----------------------------------------------------------*/
-.testimonials-section{
-  background-color: #20639b;
+ #up-events{
+  background-color: #6699cc;
+  width:800px;
+  margin-top:90px;
+}
+ .card-title{
+   color:#fff;
+ }
+ #events-date{
+  background-color: #ffffff;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  padding-top:80px;
+}
+#events-details{
+  padding-right:5px;
+  padding-top: 5px;
+  border-right: 1px solid red;
 }
 
+#events-day{
+ color: #ff0000;
+ font-weight: bold;
+ font-size: 30px;
+
+}
+#events-btn{
+  padding-top:120px; 
+  padding-left: 15px;
+}
+
+
+
+
+
+/*-------------------------------------------------------- Testimonials/Carousel ----------------------------------------------------------*/
+.testimonials-section{
+  background-color: #becee5;
+}
+#testimonials{
+  padding-top: 15px;
+}
 .col-center {
   margin: 0 auto;
   float: none !important;
@@ -405,7 +461,7 @@ padding: 15px;
 }
 
 .carousel .overview b {
-  color: #7AA641;
+  color: blue;
 }
 
 .company-name{
@@ -476,15 +532,173 @@ padding: 15px;
 
 /*-------------------------------------------------------- /.Carousel ----------------------------------------------------------*/
 
-/*=================================================== END TESTIMONIALS SECTION ==========================================================*/
+/*----------------------------------------------------Contact Section--------------------------------------*/
+
+.contactHeading{
+  padding-top: 20px;
+  padding-bottom: 15px;
+  
+}
+.contact-p{
+  padding-left: 25px;
+
+}
+.my-contact-form{
+  min-height:90%;
+  padding-top: 50px;
+  margin-bottom:50px;
+  margin-left: 10px;
+}
+
+#the-contact-form{
+  background-color:#8cc6e5
+}
+#contact_container{
+  background-color:#fff;
+
+}
+#form-container-row{
+  background-color:#fff;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  
+}
+
+.my-contact-form input{
+  height: 40px;
+    
+  
+ }
+ #contact-inputQualification{
+   padding-right:5px;
+ }
+#contact-delivery-method{
+  margin-right: 10px;
+}
+#inlineCheckbox1-contact{
+  margin-left:250px;
+  
+}
+/*Contact-us Page Section*/
+/*------Google Maps--------*/
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+  
+
+#heroCol #hCol-contact-us{
+  /* min-height:60%;*/
+   background-size:cover;
+  /* background-image: url(../gallery/hI.jpg);*/
+   background-color:  #173f5f; 
+   border: none;
+   padding:12px;
+   opacity: 0.8;
+   z-index: 0;
+   
+}
+#hCol-contact-us{
+
+    min-height:60%;
+     background-size:cover;
+    /* background-image: url(../gallery/hero_Overlay.png);*/
+     width: 450px;
+}
+/*===================================================Accreditation Page========================================*/
+.accred-h{
+  color: #e00707;
+}
+.accredit-wrap{
+  min-height: 450px;
+  background-image: url('../gallery/testiM.jpg');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-color:#f2f2f2;
+
+}
+.header-a {
+  overflow: hidden;
+  background-color: #f9f9f9 !important;
+  width:100%;
+  top:0;
+
+}
+/*
+#midM-bar-a{
+  background-color: #f9f9f9 !important; 
+}
+#a-reg-form .reg-form-accr{
+/* min-height:60%;*/
+   /*background-size:cover;
+  /* background-image: url(../gallery/hI.jpg);*/
+  /*border-top:4px solid #3792cb !important;*/
+  /*border-top:4px solid #1167b1!important;
+  background-color: #cecece !important; 
+   border: none;
+   padding:12px;
+   opacity: 0.90;
+   z-index: 0;
+   width:430px;
+   margin-left: 108px;
+   margin-bottom: 50px;
+}
+
+ 
+ #content-btn-a{
+  background-color:  #0257a1; 
+  width: 450px;
+  border:none;  
+  height: 50px;
+}
+#heroCol-a #hCol-a{
+  /* min-height:60%;*/
+   /*background-size:cover;
+  /* background-image: url(../gallery/hI.jpg);*/
+   /*background-color:  #4b92dc; 
+   border: none;
+   padding:12px;
+   opacity: 0.98;
+   z-index: 0;
+   
+}
+#hCol-a{
+   min-height:60%;
+    background-size:cover;
+    /*background-image: url(gallery/hI.jpg);*/
+   /* width: 450px;
+   
+ }
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------FOOTER SECTION------------------------------------------------------------------*/
 /* Main Footer */
 section{
   padding-bottom: 0;
 }
 #footer{
-  min-width:100%;
-  background-color: #173f5f; 
+  min-width:100% !important;
+  background-color:#20639b;
 
 }
 
@@ -492,7 +706,7 @@ footer .main-footer{	padding: 20px 0;	background: #173f5f; min-width:100%;}
 footer ul{	padding-left: 0;	list-style: none;}
 
 /* Copy Right Footer */
-.footer-copyright {	background: #152238;	padding: 5px 0;}
+.footer-copyright {	background: #173f5f; 	padding: 5px 0;}
 .footer-copyright .logo {    display: inherit;}
 .footer-copyright nav {    float: right;    margin-top: 5px;}
 .footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}
@@ -511,7 +725,7 @@ footer.transparent .footer-copyright{	background: none repeat scroll 0 0 rgba(0,
 /* Footer light */
 footer.light .footer-top{	background: #f9f9f9;}
 footer.light .main-footer{	background: #f9f9f9;}
-footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
+footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(128, 44, 44, 0.3) ;}
 
 /* Footer 4 */
 .footer- .logo {    display: inline-block;}
@@ -524,7 +738,7 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 .widget.no-box{	padding: 0;	background-color: transparent;	margin-bottom: 40px;
 	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
 .widget.subscribe p{	margin-bottom: 18px;}
-.widget li a{	color: #ff8d1e;}
+.widget li a{	color: #67c8ff;}
 .widget li a:hover{	color: #4b92dc;}
 .widget-title {margin-bottom: 20px;}
 .widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
@@ -545,9 +759,9 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 
 ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
-ul.social-footer2 li a:hover {background-color:#ff8d1e;}
+ul.social-footer2 li a:hover {background-color:#67c8ff;}
 ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
-.btn{background-color: #ff8d1e; color:#fff;}
+.btn{background-color: #67c8ff; color:#fff;}
 .btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
 -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
