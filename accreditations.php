@@ -13,16 +13,17 @@
 </head>
 <body>
 
-<!-- Page Preloader -->
-<div id="preloder">
-        <div class="loader"></div>
-    </div>
-    <!--/.Page Preloader-->
+ <!--
+  <center>
+<h2>Loading....</h2>
 
+<div class="loader"></div>
+</center>
+-->
 <!-- header Section-->
 <section class="header-a">
 <div class="menu">
-<a class="navbar-brand" href="#"><img src="gallery/highbury_logo.jpeg"alt="logo" width="110px" ></a>
+<a class="navbar-brand" href="index.php"><img src="gallery/highbury_logo.jpeg"alt="logo" width="110px" ></a>
   <div class="header-right">
     <ul id="horizontal-list">
       <li> <a href="#"><i class="fab fa-whatsapp"  style="font-size:16px;color:blue"></i>  WhatsApp Us: +27 72 051 3490</a></li>

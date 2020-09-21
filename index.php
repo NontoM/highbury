@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- CDN for Font Awesome Icons -->
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
-    <title>Document</title>
+    <title>Highbury</title>
 </head>
 <body>
+  <!--
+  <center>
+<h2>Loading....</h2>
 
-<!-- Page Preloader -->
-<div id="preloder">
-        <div class="loader"></div>
-    </div>
-    <!--/.Page Preloader-->
-
+<div class="loader"></div>
+</center>
+-->
 <!-- header Section-->
 <section class="header">
 <div class="menu">
@@ -694,7 +694,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 <div class="container">
 <div class="row">
 <div class="col-md-12 text-center">
-<p>Copyright Mukete Group © 2020. All rights reserved.</p>
+<p>Copyright © 2020. All rights reserved.</p>
 </div>
 </div>
 </div>

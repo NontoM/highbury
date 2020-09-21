@@ -11,67 +11,74 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   
-    <title>Document</title>
+    <title></title>
 </head>
 <body>
+   <!--
+  <center>
+<h2>Loading....</h2>
 
-<section class="header">
-<div class="menu">
-<a class="navbar-brand" href="#"><img src="gallery/highbury-Wlogo.png"alt="logo" width="110px" ></a>
+<div class="loader"></div>
+</center>
+-->
+
+<section class="header" id="header-c">
+<div class="menu" id="menu-c">
+<a class="navbar-brand" href="index.php"><img src="gallery/highbury-Wlogo.png"alt="logo" width="110px" ></a>
   <div class="header-right">
-    <ul id="horizontal-list">
-      <li> <a href="#"><i class="fab fa-whatsapp"  style="font-size:16px;color:blue"></i>  WhatsApp Us: +27 72 051 3490</a></li>
-      <li> <a href="#"><i class="fa fa-phone" style="font-size:16px;color:blue"></i>  GP: +27 11 262 5115</a></li>
-      <li><a href="#"><i class="fa fa-phone" style="font-size:16px;color:blue"></i>  CTN: +27 21 202 7890</a></li>
-       <li> <a href="#"><i class="fa fa-envelope" style="font-size:16px;color:blue"></i>  info@highbury.com</a></li>
+    <ul id="horizontal-list-c">
+      <li> <a href="#"><i class="fab fa-whatsapp"   style="font-size:16px;color:#c1272d"></i>  WhatsApp Us: +27 72 051 3490</a></li>
+      <li> <a href="#"><i class="fa fa-phone" style="font-size:16px;color:#c1272d"></i>  GP: +27 11 262 5115</a></li>
+      <li><a href="#"><i class="fa fa-phone"  style="font-size:16px;color:#c1272d"></i>  CTN: +27 21 202 7890</a></li>
+       <li> <a href="#"><i class="fa fa-envelope" style="font-size:16px;color:#c1272d"></i>  info@highbury.com</a></li>
      </ul>
   </div>
 </div>
 
 <div id="midM-bar">
-<a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true" id="midM-bar-btn">Rate Our Service, let Our CEO Know</a>
+<a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true" id="midM-bar-btnC">Rate Our Service, let Our CEO Know</a>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark " id="main-Nav">
+<nav class="navbar navbar-expand-lg navbar-dark " id="main-Nav-c">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php" id="nav-link-c">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Our Schools</a>
+        <a class="nav-link" id="nav-link-c" href="#">Our Schools</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Enrolment</a>
+        <a class="nav-link" id="nav-link-c" href="#">Enrolment</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Student Portal</a>
+        <a class="nav-link" id="nav-link-c" href="#">Student Portal</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Learning Methods</a>
+        <a class="nav-link" id="nav-link-c" href="#">Learning Methods</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Open Days & Events</a>
+        <a class="nav-link" id="nav-link-c" href="#">Open Days & Events</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Recruit Graduates</a>
+        <a class="nav-link" id="nav-link-c" href="#">Recruit Graduates</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="accreditations.php">Accreditations</a>
+        <a class="nav-link" id="nav-link-c" href="accreditations.php">Accreditations</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Contact us</a>
+        <a class="nav-link" id="nav-link-c" href="#">Contact us</a>
       </li>
     </ul>
   </div>
 </nav>
 
   <!--Header overlay-->
-  <div class="wrap">
-<button type="button" class="btn btn-primary" id="wrap-card">
+  <div class="wrap-c">
+<button type="button" class="btn btn-primary" id="wrap-card-c">
 Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img src="gallery/highbury_logo.jpeg" width="80px" alt="" > 
  </span>
   <span class="sr-only"></span>
@@ -90,7 +97,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
    </div>
 
 <br>
-   <button type="button" class="btn btn-primary btn-lg btn-block" id="content-btn">READ MORE</button>
+   <button type="button" class="btn btn-primary btn-lg btn-block" id="content-btn-c">READ MORE</button>
   
   </div>
     <div class="col"  id="hero-reg-form">
@@ -216,7 +223,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
   </div>
   
   <script src="Basic-Math-Captcha-Plugin/gulpfile.js"></script>
-  <button type="submit" class="btn btn-dark" id="wrap-submit">SUBMIT</button>
+  <button type="submit" class="btn btn-dark" id="wrap-submit-c">SUBMIT</button>
 </form>
 </div>
     </div>
@@ -228,13 +235,8 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 
  <!-- ======= Alert Button Section ======= -->
  <center>
-    <section class="alert alert-dark"  id="alert" role="alert">
+    <section class="alert alert-dark"  id="alert-c" role="alert">
    #WhereFUTURESAreMade!
- <section id="section03" class="demo">
-  <a href="#section04"><span></span>Scroll</a>
-</section>
-</div>
-</div>
 </section>
  <!--/.Alert Section-->
  </center>
@@ -242,9 +244,8 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 <br><br><br>
 <!-- ======= Contact Form ======= -->
 <div class="container">
-<h1><span>Get</span> in Touch</h1>
-<div class="seprator"></div>
-<br><br>
+<h1><span>Get</span> in Touch <div class="seprator"></div></h1>
+<br>
 <div class="row">
 <div class="col-sm-4">
   <div>
@@ -274,7 +275,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 <br><br><br><br>
 <!--footer-->
 
-<section  id="footer" class="footer-1">
+<section  class="footer" id="footer-1">
   <br>
 <div class="main-footer widgets-dark typo-light">
 <div class="container">
