@@ -21,7 +21,7 @@
 </center>
 -->
 <!-- header Section-->
-<section class="header-a">
+<section class="header-accr">
 <div class="menu">
 <a class="navbar-brand" href="index.php"><img src="gallery/highbury_logo.jpeg"alt="logo" width="110px" ></a>
   <div class="header-right">
@@ -34,42 +34,42 @@
   </div>
 </div>
 
-<div id="midM-bar-a">
-<a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true" id="midM-bar-btn">Rate Our Service, let Our CEO Know</a>
+<div id="midM-bar-accr">
+<a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true" id="midM-accrbar-btn">Rate Our Service, let Our CEO Know</a>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark " id="main-Nav">
+<nav class="navbar navbar-expand-lg navbar-dark " id="main-Nav-accr">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link"  id="nav-link-accr" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Our Schools</a>
+        <a class="nav-link" href="#"  id="nav-link-accr" >Our Schools</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Enrolment</a>
+        <a class="nav-link"  id="nav-link-accr"  href="#">Enrolment</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Student Portal</a>
+        <a class="nav-link"   id="nav-link-accr"  href="#">Student Portal</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Learning Methods</a>
+        <a class="nav-link"  id="nav-link-accr" href="#">Learning Methods</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Open Days & Events</a>
+        <a class="nav-link"  id="nav-link-accr" href="#">Open Days & Events</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Recruit Graduates</a>
+        <a class="nav-link"  id="nav-link-accr" href="#">Recruit Graduates</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Accreditations</a>
+        <a class="nav-link"  id="nav-link-accr" href="#">Accreditations</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="contact_us.php">Contact us</a>
+        <a class="nav-link"  id="nav-link-accr" href="contact_us.php">Contact us</a>
       </li>
     </ul>
   </div>
@@ -77,7 +77,7 @@
 
   <!--Header overlay-->
   <div class="accredit-wrap">
-<button type="button" class="btn btn-primary" id="wrap-card">
+<button type="button" class="btn btn-primary" id="wrap-card-accr">
 Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img src="gallery/highbury_logo.jpeg" width="80px" alt="" > 
  </span>
   <span class="sr-only"></span>
@@ -85,8 +85,8 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 <br><br>
 <div class="container">
    <div class="row">
-    <div class="col" id="heroCol"> 
-    <div id="hCol">
+    <div class="col" id="heroCol-accr"> 
+    <div id="hCol-accr">
         <div class="content">
    <h4><span>Study</span> at Highbury College in 2021</h4>
    <div class="seprator"></div>
@@ -96,7 +96,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
    </div>
 
 <br>
-   <button type="button" class="btn btn-primary btn-lg btn-block" id="content-btn">READ MORE</button>
+   <button type="button" class="btn btn-primary btn-lg btn-block" id="content-btn-accr">READ MORE</button>
   
   </div>
     <div class="col"  id="hero-reg-form">
@@ -120,9 +120,9 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
   </div>
 
   <div class="form-row">
-  <div class="form-group col-md-6">
-      <select id="inputLocation" class="form-control">
-        <option selected>Choose your Location</option>
+  <div class="form-group col-md-6"> 
+      <select class="form-control" id="form-select">
+        <option selected id="inputLocation">Choose your Location</option>
         <option value="Western Cape">Western Cape</option>
                   <option value="Eastern Cape">Eastern Cape</option>
                   <option value="Northern Cape">Northern Cape</option>
@@ -137,10 +137,10 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
       </select>
     </div>
     <div class="form-group col-md-6">
-      <select id="inputQualification" class="form-control">
-        <option selected>Qualification</option>
+      <select class="form-control" id="form-select">
+        <option selected id="inputQualification">Qualification</option>
         <optgroup label="School of Business, Entrepreneurship & Finance">   
-          <option value="ACCA Applied Knowledge L1 Certificate" >ACCA Applied Knowledge L1 Certificate</option>
+          <option value="ACCA Applied Knowledge L1 Certificate">ACCA Applied Knowledge L1 Certificate</option>
                                                                 <option value="ACCA Applied Skills L2 Certificate" >ACCA Applied Skills L2 Certificate</option>
                                                                 <option value="ACCA FIA Diploma in Accounting and Business" >ACCA FIA Diploma in Accounting and Business</option>
                                                                 <option value="ACCA FIA Intermediate Certificate in Financial and Management Accounting" >ACCA FIA Intermediate Certificate in Financial and Management Accounting</option>
@@ -192,12 +192,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
                                                                 <option value="National Certificate: Plumbing N1-N3" >National Certificate: Plumbing N1-N3</option>
                                                                 <option value="National Diploma: Chemical Engineering (N1-N6)" >National Diploma: Chemical Engineering (N1-N6)</option>
                                                                 <option value="National Diploma: Civil/Building Engineering N1-N6" >National Diploma: Civil/Building Engineering N1-N6</option>
-                                                                <option value="National Diploma: Electrical Engineering N1-N6" >National Diploma: Electrical Engineering N1-N6</option>
-                                                                <option value="National Diploma: Electrical Engineering N1-N6: HEAVY CURRENT" >National Diploma: Electrical Engineering N1-N6: HEAVY CURRENT</option>
-                                                                <option value="National Diploma: Electrical Engineering N1-N6: LIGHT CURRENT" >National Diploma: Electrical Engineering N1-N6: LIGHT CURRENT</option>
-                                                                <option value="National Diploma: Management of Civil Engineering Construction Processes NQF5" >National Diploma: Management of Civil Engineering Construction Processes NQF5</option>
-                                                                <option value="National Diploma: Mechanical Engineering N1-N6" >National Diploma: Mechanical Engineering N1-N6</option>
-                                                             </select>
+                                                                </select>
     </div>
     </div>
 
@@ -224,6 +219,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
   <script src="Basic-Math-Captcha-Plugin/gulpfile.js"></script>
   <button type="submit" class="btn btn-dark" id="wrap-submit">SUBMIT</button>
 </form>
+
 </div>
     </div>
   </div>
@@ -234,22 +230,13 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 
   <!-- ======= Alert Button Section ======= -->
   <center>
-    <section class="alert alert-dark"  id="alert" role="alert">
+    <section class="alert alert-dark"  id="alert-accr" role="alert">
    #WhereFUTURESAreMade!
- <section id="section03" class="demo">
-  <a href="#section04"><span></span>Scroll</a>
-</section>
 </div>
 </div>
 </section>
  <!--/.Alert Section-->
  </center>
-
-
-
-
-
-
 
 <!--Main Content: Accreditations-->  
 <div class="container">
@@ -257,7 +244,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
       <div class="seprator"></div>
       <br>
     <p>We pride ourselves in making sure that we comply with industry and educational requirements. We, therefore, put high priority in ensuring that the relevant accreditations are met and maintained. </p>
-    <p>The AIE (Academic Institute of Excellence) has been granted provisional registration as a private college in terms of Section 31(3) of the CET Act and Regulation 12(4), with registration number 2018/FE07/003 for a period of three years.</p>
+    <p>We been granted provisional registration as a private college in terms of Section 31(3) of the CET Act and Regulation 12(4), with registration number 2018/FE07/003 for a period of three years.</p>
     
     <h4 class="accred-h">URGENT: ACCREDITATION EXTENSION - COVID19 - READ MORE </h4>
     <br>
@@ -278,7 +265,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
     <div class="col-6">
     <div>
           <h5>Silver Learning Partner</h5>
-          <p>Academic Institute of Excellence has been awarded Silver Learning Partner status
+          <p>Highbury has been awarded Silver Learning Partner status
                as part of our Approved Learning Partner (ALP) programme.
                 <a href="#">VIEW ACCREDITATION LETTER</a></p>
       </div>

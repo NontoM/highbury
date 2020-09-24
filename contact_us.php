@@ -11,16 +11,15 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   
-    <title></title>
+    <title>Highbury</title>
 </head>
 <body>
-   <!--
-  <center>
-<h2>Loading....</h2>
+  <!--Preloader-->
+<!--<div id="preloader">
+  <div id="loader"></div>
+</div>
+<!--/.Preloader-->
 
-<div class="loader"></div>
-</center>
--->
 
 <section class="header" id="header-c">
 <div class="menu" id="menu-c">
@@ -121,9 +120,9 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
   </div>
 
   <div class="form-row">
-  <div class="form-group col-md-6">
-      <select id="inputLocation" class="form-control">
-        <option selected>Choose your Location</option>
+  <div class="form-group col-md-6"> 
+      <select class="form-control" id="form-select">
+        <option selected id="inputLocation">Choose your Location</option>
         <option value="Western Cape">Western Cape</option>
                   <option value="Eastern Cape">Eastern Cape</option>
                   <option value="Northern Cape">Northern Cape</option>
@@ -138,10 +137,10 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
       </select>
     </div>
     <div class="form-group col-md-6">
-      <select id="inputQualification" class="form-control">
-        <option selected>Qualification</option>
+      <select class="form-control" id="form-select">
+        <option selected id="inputQualification">Qualification</option>
         <optgroup label="School of Business, Entrepreneurship & Finance">   
-          <option value="ACCA Applied Knowledge L1 Certificate" >ACCA Applied Knowledge L1 Certificate</option>
+          <option value="ACCA Applied Knowledge L1 Certificate">ACCA Applied Knowledge L1 Certificate</option>
                                                                 <option value="ACCA Applied Skills L2 Certificate" >ACCA Applied Skills L2 Certificate</option>
                                                                 <option value="ACCA FIA Diploma in Accounting and Business" >ACCA FIA Diploma in Accounting and Business</option>
                                                                 <option value="ACCA FIA Intermediate Certificate in Financial and Management Accounting" >ACCA FIA Intermediate Certificate in Financial and Management Accounting</option>
@@ -193,12 +192,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
                                                                 <option value="National Certificate: Plumbing N1-N3" >National Certificate: Plumbing N1-N3</option>
                                                                 <option value="National Diploma: Chemical Engineering (N1-N6)" >National Diploma: Chemical Engineering (N1-N6)</option>
                                                                 <option value="National Diploma: Civil/Building Engineering N1-N6" >National Diploma: Civil/Building Engineering N1-N6</option>
-                                                                <option value="National Diploma: Electrical Engineering N1-N6" >National Diploma: Electrical Engineering N1-N6</option>
-                                                                <option value="National Diploma: Electrical Engineering N1-N6: HEAVY CURRENT" >National Diploma: Electrical Engineering N1-N6: HEAVY CURRENT</option>
-                                                                <option value="National Diploma: Electrical Engineering N1-N6: LIGHT CURRENT" >National Diploma: Electrical Engineering N1-N6: LIGHT CURRENT</option>
-                                                                <option value="National Diploma: Management of Civil Engineering Construction Processes NQF5" >National Diploma: Management of Civil Engineering Construction Processes NQF5</option>
-                                                                <option value="National Diploma: Mechanical Engineering N1-N6" >National Diploma: Mechanical Engineering N1-N6</option>
-                                                             </select>
+                                                                </select>
     </div>
     </div>
 
@@ -223,7 +217,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
   </div>
   
   <script src="Basic-Math-Captcha-Plugin/gulpfile.js"></script>
-  <button type="submit" class="btn btn-dark" id="wrap-submit-c">SUBMIT</button>
+  <button type="submit" class="btn btn-dark" id="wrap-submit">SUBMIT</button>
 </form>
 </div>
     </div>

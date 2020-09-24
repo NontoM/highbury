@@ -11,13 +11,12 @@
     <title>Highbury</title>
 </head>
 <body>
-  <!--
-  <center>
-<h2>Loading....</h2>
+  <!--Preloader-->
+<!--<div id="preloader">
+  <div id="loader"></div>
+</div>
+<!--/.Preloader-->
 
-<div class="loader"></div>
-</center>
--->
 <!-- header Section-->
 <section class="header">
 <div class="menu">
@@ -118,9 +117,9 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
   </div>
 
   <div class="form-row">
-  <div class="form-group col-md-6">
-      <select id="inputLocation" class="form-control">
-        <option selected>Choose your Location</option>
+  <div class="form-group col-md-6"> 
+      <select class="form-control" id="form-select">
+        <option selected id="inputLocation">Choose your Location</option>
         <option value="Western Cape">Western Cape</option>
                   <option value="Eastern Cape">Eastern Cape</option>
                   <option value="Northern Cape">Northern Cape</option>
@@ -135,10 +134,10 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
       </select>
     </div>
     <div class="form-group col-md-6">
-      <select id="inputQualification" class="form-control">
-        <option selected>Qualification</option>
+      <select class="form-control" id="form-select">
+        <option selected id="inputQualification">Qualification</option>
         <optgroup label="School of Business, Entrepreneurship & Finance">   
-          <option value="ACCA Applied Knowledge L1 Certificate" >ACCA Applied Knowledge L1 Certificate</option>
+          <option value="ACCA Applied Knowledge L1 Certificate">ACCA Applied Knowledge L1 Certificate</option>
                                                                 <option value="ACCA Applied Skills L2 Certificate" >ACCA Applied Skills L2 Certificate</option>
                                                                 <option value="ACCA FIA Diploma in Accounting and Business" >ACCA FIA Diploma in Accounting and Business</option>
                                                                 <option value="ACCA FIA Intermediate Certificate in Financial and Management Accounting" >ACCA FIA Intermediate Certificate in Financial and Management Accounting</option>
@@ -190,12 +189,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
                                                                 <option value="National Certificate: Plumbing N1-N3" >National Certificate: Plumbing N1-N3</option>
                                                                 <option value="National Diploma: Chemical Engineering (N1-N6)" >National Diploma: Chemical Engineering (N1-N6)</option>
                                                                 <option value="National Diploma: Civil/Building Engineering N1-N6" >National Diploma: Civil/Building Engineering N1-N6</option>
-                                                                <option value="National Diploma: Electrical Engineering N1-N6" >National Diploma: Electrical Engineering N1-N6</option>
-                                                                <option value="National Diploma: Electrical Engineering N1-N6: HEAVY CURRENT" >National Diploma: Electrical Engineering N1-N6: HEAVY CURRENT</option>
-                                                                <option value="National Diploma: Electrical Engineering N1-N6: LIGHT CURRENT" >National Diploma: Electrical Engineering N1-N6: LIGHT CURRENT</option>
-                                                                <option value="National Diploma: Management of Civil Engineering Construction Processes NQF5" >National Diploma: Management of Civil Engineering Construction Processes NQF5</option>
-                                                                <option value="National Diploma: Mechanical Engineering N1-N6" >National Diploma: Mechanical Engineering N1-N6</option>
-                                                             </select>
+                                                                </select>
     </div>
     </div>
 
@@ -236,9 +230,6 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
   <center>
     <section class="alert alert-dark"  id="alert" role="alert">
    #WhereFUTURESAreMade!
- <section id="section03" class="demo">
-  <a href="#section04"><span></span>Scroll</a>
-</section>
 </div>
 </div>
 </section>
@@ -337,35 +328,35 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 <!--/.Choose Qualification Section-->
 <br><br><br>
 <!--Our Learning Methods Section-->
-<section class="container">
+<section class="container" id="learning-method-section">
   <h1><span>Our</span> Learning Methods<div class="seprator"></div></h1>
   <p>At Highbury College we understand that each person prefers different learning styles and techniques. This is influenced by many factors including, circumstances, location, field of study and learning preference. It is for this reason that we have developed our myWay learning methodology, a unique and modern approach
      to blended learning that encompasses multiple delivery methods, involving our three main channels.</p>
 <div class="container">
-  <div class="row">
+  <div class="row" id="methods">
     <div class="col-md">
-    <img src="gallery/ic-wall-clock.png" alt="">
+    <img src="gallery/ic-wall-clock.png" id="clock-images" alt="" >
       <h3>Full Time</h3>
       <p>Reach your full potential through our myWay Instructor-led or 
         Mentorship based classes combined with interactive lessons, practical assignments and 
         in-field experience, combined with our blended platform to make up a full day or selective days within a week.</p>
         <br><br>
-        <button type="button" class="btn btn-light">LEARN MORE</button>
+        <button type="button" class="btn btn-light" id=methods-btn>LEARN MORE</button>
       </div>
     <div class="col-md">
-    <img src="gallery/ic-wall-clock2.png" alt="">
+    <img src="gallery/ic-wall-clock2.png" id="clock-images" alt="">
       <h3>Part Time</h3>
       <p>Designed for the working professional, our part time programmes provides you with the flexibility and benefit of our myWay Blended Learning with 
         at home exercises/assignments and mentored or in-class lectures at a manageable schedule and pace.</p>
         <br><br>
-        <button type="button" class="btn btn-light">LEARN MORE</button>
+        <button type="button" class="btn btn-light" id="methods-btn">LEARN MORE</button>
       </div>
     <div class="col-md">
-    <img src="gallery/ic-correspondence.png" alt="">
+    <img src="gallery/ic-correspondence.png" id="clock-images" alt="">
       <h3>Online</h3>
       <p>We have re-defined online learning. Our myWay Online Learning ensures that the student is supported by technology and people throughout his academic journey. We focus on a blended learning approach, combining online Virtual Classrooms, at home exercises, activities and project-based assignments
          bundled with fully developed video lectures, all managed by our student learning platform.</p>
-         <button type="button" class="btn btn-light">LEARN MORE</button>
+         <button type="button" class="btn btn-light" id="methods-btn">LEARN MORE</button>
         </div>
   </div>
 </div>
@@ -377,7 +368,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 
 <!--Upcoming Events Section-->
 <section class="card  text-white" id="events-section">
-  <img class="card-img" src="gallery/testiM.jpg" alt="Card image" height="612">
+  <img class="card-img" src="gallery/student2.jpg" alt="Card image" height="612">
   <div class="card-img-overlay">
   <h1 class="card-title"><span>Upcoming</span> Events and Open Days<div class="seprator"></div></h1>
   <div  class="container" id="up-events">
@@ -390,14 +381,14 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
     
     <div class="col-6" id="events-details" >
 
-    <h3>August  2020 Intake  @ 09:00</h3>
+    <h3>January  2021 Intake  @ 09:00</h3>
     <p>Highbury College will be hosting an online open day for all students who are interested in a career in Engineering N1-N6, and would like to enrol to start their studies in August for any one of their programs. Students will discover how classes will be presented, what subjects they will have and if they would like to book a campus tour for the day they can speak to one 
       of our advisors to book a tour on the day to see what the campus looks like. Bookings required.</p>
     </div>
     
     <div class="col">
     <div id="events-btn">
-    <button type="button" class="btn btn-light">LEARN MORE</button>
+    <button type="button" class="btn btn-light" >LEARN MORE</button>
    </div>
    </div>
   </div>
@@ -413,8 +404,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 		<div class="row">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 testimonials">
 			<div class="training-title">
-				<h1 class="aoe-title">Testimonials <div class="seprator"></div></h1>
-				<div class="line"></div>
+				<h1 class="testimonials-title">Testimonials <div class="seprator" id="testimonials-seprato"></div></h1>
 			</div>			
 
 		<div class="col-center m-auto">
@@ -479,7 +469,7 @@ Welcome to Highbury College<span class="badge badge-light" id="badge-pic"><img s
 
 <!-- ======= Contact Form ======= -->
 <section class="container" id="contact-section">
-<h1><span>Get</span> in Touch <div class="seprator"></div></h1>
+<h1 id="contact-h"><span>Get</span> in Touch <div class="seprator"></div></h1>
 <div class="row" id="form-container-row">
 <div class="col-sm-4" id="contact_container">
   <div class="contactHeading">
